@@ -13,6 +13,6 @@ public class Question3
     Scanner in = new Scanner(System.in);
     int integer = in.nextInt();
     int final_int = integer*integer;
-    System.out.println(final);
+    System.out.println(final_int);
   }
 }

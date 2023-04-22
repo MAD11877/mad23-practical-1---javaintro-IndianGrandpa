@@ -17,7 +17,7 @@ public class Question4
      * Hint: 2 loops are required. System.out.print(...) to print on single line.
      */
 
-    System.out.print("length:"); 
+   
     Scanner in = new Scanner(System.in);
     int length = in.nextInt();
 

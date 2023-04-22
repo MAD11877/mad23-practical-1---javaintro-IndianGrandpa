@@ -2,11 +2,7 @@ import java.util.Scanner;
 
 public class Question2
 {
-  static double bmicalc (double weigth,double height)
-  {     height = height/100;
-        return weigth/(height*height);
 
-  }
   public static void main(String[] args)
   {
     /**
@@ -20,9 +16,12 @@ public class Question2
     
     System.out.print("Weigth(kg):");
     Scanner weigth_input = new Scanner(System.in);
-    double weigth = weigth_input.nextDouble();
     
-    System.out.println(bmicalc(weigth, height));
+    double weigth = weigth_input.nextDouble();
+    height = height/100;
+   
+    
+    System.out.println( weigth/(height*height););
     
 
 

@@ -33,8 +33,8 @@ public class Question5
 
     for(int i=0;i<no_of_input;i++)
     {
-      int no=in.nextInt()
-      numbers.add(no.nextInt());
+    
+      numbers.add(in.nextInt());
 
 
 

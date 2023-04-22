@@ -10,11 +10,11 @@ public class Question2
      * 
      * Hint: in.nextDouble() to read double
      */
-    System.out.print("Height(cm):");
+    System.out.println("Height(cm):");
     Scanner in = new Scanner(System.in);
     double height = in.nextDouble();
     
-    System.out.print("Weigth(kg):");
+    System.out.println("Weigth(kg):");
     Scanner weigth_input = new Scanner(System.in);
     
     double weigth = weigth_input.nextDouble();

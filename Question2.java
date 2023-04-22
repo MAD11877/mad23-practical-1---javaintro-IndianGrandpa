@@ -10,14 +10,15 @@ public class Question2
      * 
      * Hint: in.nextDouble() to read double
      */
-    System.out.println("Height(cm):");
+
     Scanner in = new Scanner(System.in);
     double height = in.nextDouble();
     
-    System.out.println("Weigth(kg):");
+
     Scanner weigth_input = new Scanner(System.in);
     
     double weigth = weigth_input.nextDouble();
+    
     height = height/100;
    
     

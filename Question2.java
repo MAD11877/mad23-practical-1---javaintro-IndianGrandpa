@@ -15,9 +15,8 @@ public class Question2
     double height = in.nextDouble();
     
 
-    Scanner weigth_input = new Scanner(System.in);
-    
-    double weigth = weigth_input.nextDouble();
+ 
+    double weigth = in.nextDouble();
     
     height = height/100;
    

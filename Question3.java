@@ -12,7 +12,7 @@ public class Question3
     System.out.print("integer:");
     Scanner in = new Scanner(System.in);
     int integer = in.nextInt();
-    int final = integer*integer
+    int final = integer*integer;
     System.out.println(final);
   }
 }

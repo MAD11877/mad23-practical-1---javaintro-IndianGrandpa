@@ -9,8 +9,10 @@ public class Question3
      * 
      * Hint: in.nextInt() to read integer
      */
-     
-    Scanner in = new Scanner(System.in);
     
+    Scanner in = new Scanner(System.in);
+    int integer = in.nextInt();
+    int final_int = integer*integer;
+    System.out.println(final_int);
   }
 }

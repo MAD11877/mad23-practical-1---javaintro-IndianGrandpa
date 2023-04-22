@@ -2,6 +2,7 @@ import java.util.Scanner;
 
 public class Question2
 {
+
   public static void main(String[] args)
   {
     /**
@@ -9,8 +10,23 @@ public class Question2
      * 
      * Hint: in.nextDouble() to read double
      */
-     
+
     Scanner in = new Scanner(System.in);
     double height = in.nextDouble();
+    
+
+ 
+    double weigth = in.nextDouble();
+ 
+   
+    
+    System.out.println( weigth/(height*height));
+    
+
+
+
+
+
+
   }
 }

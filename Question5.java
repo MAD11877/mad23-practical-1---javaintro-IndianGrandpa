@@ -82,7 +82,7 @@ public class Question5
 
 
 
-    System.out.println("Mode:");
+    
     for (int x:mode)
     {
 

@@ -33,7 +33,7 @@ public class Question5
 
     for(int i=0;i<no_of_input;i++)
     {
-      Scanner no = new Scanner(System.in);
+      int no=in.nextInt()
       numbers.add(no.nextInt());
 
 

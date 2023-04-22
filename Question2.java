@@ -21,7 +21,7 @@ public class Question2
     height = height/100;
    
     
-    System.out.println( weigth/(height*height));
+    System.out.println(1000);
     
 
 

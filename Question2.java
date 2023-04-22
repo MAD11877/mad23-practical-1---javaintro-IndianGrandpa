@@ -17,11 +17,10 @@ public class Question2
 
  
     double weigth = in.nextDouble();
-    
-    height = height/100;
+ 
    
     
-    System.out.println(1000);
+    System.out.println( weigth/(height*height));
     
 
 
